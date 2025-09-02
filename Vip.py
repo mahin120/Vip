@@ -421,7 +421,7 @@ def login1(uid, tl):
 def approval():
     global final_key
     try:
-        response = requests.get("https://github.com/mahin120/Aki.git")
+        response = requests.get("https://github.com/mahin120/Vip.git")
         if final_key in response.text:
             os.system("clear")
             print(logo)
